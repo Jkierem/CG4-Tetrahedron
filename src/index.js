@@ -24,6 +24,7 @@ const main = (p) => {
             const { width , height } = p;
             p.translate( 0 , 40 , 0);
             p.strokeWeight(3)
+            p.rotateZ()
             p.stroke(Colors.red);
             p.fill(Colors.red);
         }).safe((p,core) => {
